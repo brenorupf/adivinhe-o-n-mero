@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.50)100%), url(img/numeros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    height: 100vh;
+    color: white;
+    font-family: Oswald;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.botao {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(228, 100, 91);
+    color: white;
+    box-shadow: 3px 3px 50px black;
+    border-radius: 10px;
+    border: none;
+    font-family: Oswald;
+    font-size: 17px;
+}
+
+.interacao {
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.titulo {
+    margin-top: 50px;
+}
+
